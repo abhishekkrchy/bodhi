@@ -1,4 +1,4 @@
-package vriksh.bodhi;
+package vriksh.bodhi.di;
 
 class BodhiException extends RuntimeException {
 

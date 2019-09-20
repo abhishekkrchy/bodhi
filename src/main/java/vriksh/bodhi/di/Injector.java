@@ -1,4 +1,4 @@
-package vriksh.bodhi;
+package vriksh.bodhi.di;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

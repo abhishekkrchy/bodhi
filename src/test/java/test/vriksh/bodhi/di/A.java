@@ -1,8 +1,8 @@
-package test.vriksh.bodhi;
+package test.vriksh.bodhi.di;
 
-import vriksh.bodhi.BindingModule;
-import vriksh.bodhi.Bodhi;
-import vriksh.bodhi.Injector;
+import vriksh.bodhi.di.BindingModule;
+import vriksh.bodhi.di.Bodhi;
+import vriksh.bodhi.di.Injector;
 
 public class A {
   public static void main(String[] args) {

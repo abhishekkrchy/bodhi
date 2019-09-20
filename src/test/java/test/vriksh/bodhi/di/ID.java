@@ -1,4 +1,4 @@
-package test.vriksh.bodhi;
+package test.vriksh.bodhi.di;
 
 public interface ID {
   String d();
