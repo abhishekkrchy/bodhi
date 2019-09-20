@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven'
 }
 
 group 'bodhi'
@@ -14,4 +15,15 @@ repositories {
 dependencies {
     compile group: 'javax.inject', name: 'javax.inject', version: '1'
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task createPom {
+    pom {
+        project {
+            groupId 'vriksh.bodhi.di'
+            artifactId 'bodhi-di'
+            version '1.0.0'
+
+        }
+    }.writeTo("pom.xml")
 }
