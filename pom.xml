@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>vriksh.bodhi.di</groupId>
   <artifactId>bodhi-di</artifactId>
-  <version>1.0.0</version>
+  <version>1.0</version>
   <dependencies>
     <dependency>
       <groupId>javax.inject</groupId>
