@@ -4,6 +4,12 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class which should be implemented
+ * for binding the interfaces to
+ * implementations. Just keeps a map
+ * for bound entries.
+ */
 public abstract class BindingModule {
 
   private final Map<Class, Class> bindings = new HashMap<>();

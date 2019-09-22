@@ -1,5 +1,8 @@
 package vriksh.bodhi.di;
 
+/**
+ * Exception class used in library.
+ */
 class BodhiException extends RuntimeException {
 
   BodhiException(String message) {
