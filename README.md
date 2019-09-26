@@ -12,3 +12,18 @@ Injector injector = Bodhi.create(new BindingModule() {
     });
 SomeClassWithInjectedFieldOfInterface instance =  injector.getInstance(SomeClassWithInjectedFieldOfInterface.class);
 ```
+
+## Dependency
+> Available in jcenter repository.
+
+In build.gradle configure jcenter repository.
+```
+repositories {
+    jcenter()
+}
+```
+
+Then add dependency.
+```
+compile 'vriksh.bodhi.di:bodhi-di:1.0'
+```
